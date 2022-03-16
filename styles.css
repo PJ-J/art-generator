@@ -1,0 +1,15 @@
+#shapes {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  margin: 50px;
+}
+#shapes .inside {
+  position: absolute;
+  opacity: 60%;
+  
+}
+#sidePanel {
+  height: 600px;
+  width: 250px;
+}

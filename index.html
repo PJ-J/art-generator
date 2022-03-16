@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Up or Shape Out</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+  </head>
+  <body>
+    <div class="container justify-content-center mt-3">
+      <div class="row justify-content-center">
+        <input type="text" placeholder="height px" id="rHeight" />
+        <input type="text" placeholder="width px" id="rWidth" />
+        <button type="submit" id="rectBtn">Add rectangle</button>
+      </div>
+
+      <div class="row justify-content-center mt-1">
+        <input type="text" placeholder="side length px" id="sideLength" />
+
+        <button type="submit" id="squBtn">Add Square</button>
+      </div>
+
+      <div class="row justify-content-center mt-1">
+        <input type="text" placeholder="radius px" id="radius" />
+        <button type="submit" id="circleBtn">Add circle</button>
+      </div>
+
+      <div class="row justify-content-center mt-1">
+        <input type="text" placeholder="height px" id="triHeight"/>
+        <button type="submit" id="triBtn">Add triangle</button>
+      </div>
+      <div class="row justify-content-center mt-1">
+      <button type="submit" id="randomBtn">Randomize</button>
+    </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="container bg-primary mt-3 m-2" id="shapes">
+              </div>
+      <div class="container bg-dark mt-3 m-2" id="sidePanel">
+        <div class="col">
+         
+        <h5 class="text-light">Shape:</h5>
+        <input type="text" placeholder="Shape name" id="panelShape">
+
+        <h5 class="text-light">Width:</h5>
+        <input type="text" placeholder="Width" id="panelWidth">
+
+        <h5 class="text-light">Height:</h5>
+        <input type="text" placeholder="Height" id="panelHeight">
+        <h5 class="text-light">Radius:</h5>
+        <input type="text" placeholder="Radius" id="panelRadius">
+        <h5 class="text-light">Area:</h5>
+        <input type="text" placeholder="Area" id="panelArea">
+        <h5 class="text-light">Perimeter:</h5>
+        <input type="text" placeholder="Perimeter" id="panelPerimeter">
+      </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
